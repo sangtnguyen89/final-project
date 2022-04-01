@@ -1,0 +1,431 @@
+/* general css for all pages */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+}
+
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* nav bar css start */
+.container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    clear: both;
+    /* z-index assures this container stays on top of everything else and doesn't bleed text when scrolling down  */
+    z-index: 1;
+}
+
+.mm_logo{
+    height: 70px;
+    float: left;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+    text-align: right;
+    height: 70px;
+    width: 100%;
+    clear: both;
+    position: sticky;
+    top: 0;
+    /* z-index assures this container stays on top of everything else and doesn't bleed text when scrolling down */
+    z-index: 1;
+}
+
+.nav_link{
+    text-decoration: none;
+    padding: 20px;
+    top: 10px;
+    color: #ab6e00;
+    position: relative;
+    font-family: 'Podkova', serif;
+}
+
+.nav_link:hover{
+    color: #ffffff;
+}
+
+/* footer css start */
+footer{
+    background-color:#002a5e;
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_copyright{
+    float: left;
+    margin: 25px;
+    color: #ab6e00;
+    font-family: 'Podkova', serif;
+}
+
+/* font awesome css start */
+.fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fab:hover{
+    opacity: 0.7;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+.fa-facebook{
+    background: #007bb5;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+
+/* homepage css */
+/* music section css start */
+.muzak_container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+}
+
+.muzak_portion{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .muzak_text{
+    text-align: center;
+    padding: 10px;
+    color: #f2dbae;
+ }
+
+.welcome_text{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.gudtime_text{
+    font-size: 40px;
+}
+
+.post_gudtime_text{
+    font-size: 25px;
+}
+
+.gudtime_img_text{
+    color: #080806;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* hero image css start */
+.hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_text{
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f2dbae;
+}
+
+/* doggo picture section css start */
+.index_content{
+    min-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+}
+
+.gudtime_cols{
+    margin: 10px;
+}
+
+/* event css start */
+.top_dog_film{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sv_event_header{
+    font-size: 50px;
+    color: #000000;
+}
+
+.event_col_one{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+    height: 768px;
+}
+
+.event_col_two{
+    padding: 100px;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+    height: 768px;
+}
+
+/* about page css */
+/* video section css start */
+.video_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_col_one{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+    background-size: 450px;
+    height: 855px;
+}
+
+.video_col_two{
+    padding: 100px;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+    height: 855px;
+}
+
+.vid_col_two_header{
+    font-size: 40px;
+    color: #020201;
+}
+
+.vid_col_two_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 65px;
+    border-color: #002a5e;
+    text-align: left;
+}
+
+.post_video_text{
+    font-size: 25px;
+    color: #f2dbae;
+}
+
+.video_text{
+    text-indent: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    width: 300px;
+    color: #110f0c;
+}
+
+/* covid message css start */
+.covid_update_text{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.c_initial{
+    font-size: 70px;
+    color: #5e1109;
+}
+
+hr.rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 350px;
+    margin: 10px;
+    border-color: #1156ab;
+}
+
+.c_open{
+    color: #f2dbae;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.c_gen{
+    color: #f2dbae;
+    font-size: 30px;
+}
+
+/* contact page css */
+/* contact section css start */
+.contact_div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+    padding: 20px;
+}
+
+.contact_header{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #f2dbae;
+}
+
+.contact_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 180px;
+    margin: 10px;
+    border-color: #002a5e;
+}
+
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact_text{
+    font-size: 30px;
+    color: #f2dbae;
+}
+
+.contact_title{
+    font-size: 25px;
+    color: #f2dbae;
+}
+
+.contact_number{    
+    font-size: 25px;
+    color: #f2dbae;
+    border-style: solid;
+    border-color: #002a5e;
+    padding: 10px;
+}
+
+/* google maps css start */
+.g_maps_header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+}
+
+.g_maps_text{
+    font-size: 45px;
+    color: #f2dbae;
+}
+
+.g_maps_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px;
+    border-color: #5e3d00;
+}
+
+.g_maps{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 1), rgba(94, 61, 0, 0));
+}
+
+.g_map_space{
+    margin: 30px;
+}
+
+.g_map_head{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #f2dbae;
+}
+
+.g_map_text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #f2dbae;
+}
+
+/* form css start */
+.form_head_container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 77, 171, 0), rgba(94, 61, 0, 1));
+}
+
+.form_header{
+    font-size: 40px;
+    color: #f2dbae;
+    text-transform: uppercase;
+}
+
+.form_rounded{
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+    width: 150px;
+    margin: 10px;
+    border-color: #002a5e;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #1156ab;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #002a5e;
+    font-family: 'Podkova', serif;
+}
+
+.form_container{
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+}
+
+.form_text{
+    font-family: 'Podkova', serif;
+}

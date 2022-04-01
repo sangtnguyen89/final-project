@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W4B Final Project Contact</title>
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Podkova&display=swap" rel="stylesheet">
+    <!-- add icons  -->
+    <script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
+    <style>
+        /* body dependencies */
+        body{
+            background-image: url('img/nw_header_img.jpg');
+            background-size: 250px;
+            margin: 0;
+            border: 0;
+            padding: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- nav bar container -->
+    <div class="container">
+        <nav class="navbar">
+            <!-- nav logo class="nav_logo" -->
+            <img src="img/mm_logo_4.png" alt="MM Logo" class="mm_logo">
+            <a href="index.html" class="nav_link">Home</a>
+            <a href="about.html" class="nav_link">About</a>
+            <a href="contact.html" class="nav_link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- contact portion -->
+    <div class="contact_div">
+        <strong class="contact_header">Get in Touch</strong>
+        <hr class="contact_rounded">
+        <i class="contact_text">We'd love to hear from you</i>
+        <div class="contact_box">
+            <p class="contact_title">Santa Clara</p>
+            <p class="contact_number">408-555-5555</p>
+        </div>
+        <div class="contact_box">
+            <p class="contact_title">Fresno</p>
+            <p class="contact_number">559-555-5555</p>
+        </div>
+        <div class="contact_box">
+            <p class="contact_title">San Francisco</p>
+            <p class="contact_number">415-555-5555</p>
+        </div>
+    </div>
+
+    <!-- google maps header -->
+    <div class="g_maps_header">
+        <strong class="g_maps_text">Experience Our Three Locations!</strong>
+        <hr class="g_maps_rounded">
+    </div>
+    <!-- google maps portion -->
+    <div class="g_maps">
+        <div class="g_map_space">
+            <strong class="g_map_head">Live Oak Dog Park</strong>
+            <p class="g_map_text">Santa Clara, CA 95054</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.85797356981!2d-121.9465658!3d37.3965837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbe0b172e64aff115!2sLive%20Oak%20Park!5e0!3m2!1sen!2sus!4v1639555452691!5m2!1sen!2sus">
+            </iframe>
+        </div>
+        <div class="g_map_space">
+            <strong class="g_map_head">Basin AH1 Dog Park (New Location)</strong>
+            <p class="g_map_text">Fresno, CA 93722</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.551500306556!2d-119.87090788473392!3d36.80530237511223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8094661b26c5e119%3A0x718c35d4ada80916!2sBasin%20AH1%20Dog%20Park!5e0!3m2!1sen!2sus!4v1639555488903!5m2!1sen!2sus">
+            </iframe>
+        </div>
+        <div class="g_map_space">
+            <strong class="g_map_head">Lafayette Dog Park</strong>
+            <p class="g_map_text">San Francisco, CA 94109</p>
+            <iframe width="400" height="250" style="border:1;" allowfullscreen="" loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.9575231632266!2d-122.42952588471!3d37.79103521899687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580c0fdea8737%3A0x9015c99596d58950!2sLafayette%20Park%20Dog%20Play%20Area!5e0!3m2!1sen!2sus!4v1639555522668!5m2!1sen!2sus">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- contact form header -->
+    <div class="form_head_container">
+        <h3 class="form_header">Contact Form</h3>
+        <hr class="form_rounded">
+    </div>
+    <!-- contact form portion -->
+    <div class="form_container">
+        <!-- commenting out form action because we dont learn php yet -->
+        <!-- <form action="/action_page.php"> -->
+        <label class="form_text" for="fname">First Name</label>
+        <input class="form_text" type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+        <label class="form_text" for="email">E-mail</label>
+        <input class="form_text" type="text" id="emailname" name="ename" placeholder="Your e-mail...">
+
+        <label class="form_text" for="country">Country</label>
+        <select class="form_text" id="country" name="country">
+            <option class="form_text" value="usa">USA</option>
+            <option class="form_text" value="canada">Canada</optionvalue>
+        </select>
+
+        <label class="form_text" for="msg">Message</label>
+        <textarea class="form_text" id="msg" name="msg" placeholder="Write message..." style="height:200px"></textarea>
+        <input class="form_text" type="submit" value="Submit">
+        <!-- </form> -->
+    </div>
+    
+    <!-- footer references -->
+    <footer>
+        <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+        <a href="https://www.facebook.com" class="fab fa-facebook"></a>
+        <p class="footer_copyright">&copy; Muffie & Mylo's <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
+</body>
+</html>

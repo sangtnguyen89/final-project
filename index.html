@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W4B Final Project Home</title>
+    <!-- link css style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Podkova&display=swap" rel="stylesheet">
+     <!-- add icons  -->
+    <script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
+    <style>
+        /* body dependencies */
+        body{
+            background-image: url('img/nw_header_img.jpg');
+            background-size: 250px;
+        }
+        /* hero image dependencies */
+        .hero_image{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero_mm.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            height: 800px;
+            width: 40vw;
+        }
+    </style>
+</head>
+<body>
+    <!-- nav bar container -->
+    <div class="container">
+        <nav class="navbar">
+            <!-- nav logo class="nav_logo" -->
+            <img src="img/mm_logo_4.png" alt="MM Logo" class="mm_logo">
+            <a href="index.html" class="nav_link">Home</a>
+            <a href="about.html" class="nav_link">About</a>
+            <a href="contact.html" class="nav_link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- music portion -->
+    <div class="muzak_container">
+        <div class="muzak_text">
+            <h2 class="welcome_text">Welcome to Muffie & Mylo's!</h2>
+            <p class="gudtime_text">Who did it?</p>
+        </div>
+        <div class="muzak_portion">
+            <audio class="allthat" controls>
+                <source src="media/bm_wltdo.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="muzak_text">
+            <i class="post_gudtime_text">(Hint: not us :D)</i>
+        </div>
+    </div>
+
+    <!-- hero image portion -->
+    <div class="hero_container">
+    <div class="hero_image">
+        <div class="hero_text">
+            <h1>Herro, we are Muffie & Mylo!</h1>
+            <p>Come and pway with us!</p>
+        </div>
+    </div>
+</div>
+    <!-- pictures of dogs having a gudtime portion -->
+    <div class="index_content">
+        <div class="gudtime_cols">
+            <img src="img/dog_group.jpg" height=400px alt="Image of dogs bonding.">
+            <p class="gudtime_img_text">Group Bonding</p>
+        </div>
+        <div class="gudtime_cols">
+            <img src="img/dog_relaxing.jpg" height=400px alt="Image of a dog relaxing.">
+            <p class="gudtime_img_text">Relax</p>
+        </div>
+        <div class="gudtime_cols">
+            <img src="img/puppy_bowl.jpg" height=400px alt="Image of a dogs playing.">
+            <p class="gudtime_img_text">Fun Activities</p>
+        </div>
+        <div class="gudtime_cols">
+            <img src="img/dog_training.jpg" height=400px alt="Image of a dog learning.">
+            <p class="gudtime_img_text">Training</p>
+        </div>
+    </div>
+
+    <!-- event portion -->
+    <div class="top_dog_film">
+        <div class="event_col_one">
+            <h2 class="sv_event_header">Support Other Dogs</h2>
+            <a href="https://topdogfilmfestival.com/">
+                <img alt="Top Dog Film Festival" src="img/top_dog.jpg" height="500">
+            </a>
+        </div>
+        <div class="event_col_two">
+            <h2 class="sv_event_header">More Details</h2>
+            <a href="https://www.svpetevents.com/">
+                <img alt="Silicon Valley Pet Event Image Two" src="img/pet_event_2.jpg" height="500">
+            </a>
+        </div>
+    </div>
+
+    <!-- footer references -->
+    <footer>
+        <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+        <a href="https://www.facebook.com" class="fab fa-facebook"></a>
+        <p class="footer_copyright">&copy; Muffie & Mylo's <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
+</body>
+</html>
